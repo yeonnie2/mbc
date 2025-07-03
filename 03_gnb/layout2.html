@@ -61,19 +61,57 @@
       color: white;
     }
   </style>
+  <style>
+    .popup {
+      position: fixed;
+      width: 420px;
+      height: 250px;
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      box-sizing: border-box;
+      font-size: 24px;
+      z-index: 99999999;
+      left: 50%;
+      transform: translateX(-50%);
+      top:100px;
+      box-shadow:8px 8px 16px rgba(0,0,0,.5);
+      line-height: 1.75;
+    }
+    button{
+      display: block;
+      padding:8px 16px;
+      border-radius:8px;
+      position: absolute;
+      right:20px ;
+
+    }
+  </style>
 </head>
 
 <body>
-  <section>
-    <div class="inner">
-      <div class="menu">
-        <div class="link">
-          <a href="#">abc</a>
-          <a href="#">abc</a>
+  <div class="popup">
+    해당 사이트는 학습용으로 제작되었으며 프로젝트1 과 무관합니다.
+    구직용 포트폴리오로 상업적 목적이 없음을 알립니다.
+    <button>닫기</button>
+  </div>
+  <div class="wrap">
+    <header></header>
+    <main>
+      <section>
+        <div class="inner">
+          <div class="menu">
+            <div class="link">
+              <a href="#">abc</a>
+              <a href="#">abc</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
+    </main>
+    <footer></footer>
+  </div>
+  <script src="script/js.js"></script>
 </body>
 
 </html>
