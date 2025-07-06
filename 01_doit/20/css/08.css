@@ -1,0 +1,21 @@
+body {
+    padding: 10px;
+}
+
+.wrap {
+    background: conic-gradient(from 180deg at 50% 50%, #3F3AD0 0deg, #D5E658 180deg, #BF106A 360deg);
+    width: 200px;
+    height: 200px;
+    transition: background-image 1s ease;
+    animation: gradient 2s ease-in-out infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background: linear-gradient(309deg, #3F3AD0 26.55%, #D5E658 50%, #BF106A 108.81%);
+    }
+
+    100% {
+        background: linear-gradient(309deg, #3F3AD0 30.55%, #D5E658 20%, #BF106A 108.81%);
+    }
+}
