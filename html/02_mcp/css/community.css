@@ -1,0 +1,371 @@
+/* Community Portfolio Page CSS */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+.main-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 164px;
+  background: none;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 40px;
+  background: #d7d8d9;
+}
+
+.main-menu {
+  position: absolute;
+  left: 164px;
+  top: 13px;
+  display: flex;
+  gap: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.menu-item { position: relative; }
+.menu-item p {
+  margin: 0;
+  line-height: 14px;
+  white-space: pre;
+}
+
+.social-icons {
+  position: absolute;
+  top: 50%;
+  right: 165px;
+  display: flex;
+  gap: 44px;
+  transform: translateY(-50%);
+}
+.icon-wrap {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+.icon-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.icon-bg-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.icon-img {
+  position: absolute;
+  inset: 20.833%;
+  width: 58.334%;
+  height: 58.334%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.header-title-wrap {
+  position: absolute;
+  left: 500px;
+  top: 82px;
+  width: 364px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+}
+.header-title {
+  color: #ba3632;
+  font-size: 42px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+  text-align: center;
+  width: 364px;
+}
+.header-desc {
+  color: #f2b8a2;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 440px;
+  margin-left: 220px;
+  transform: translateX(-50%);
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+}
+
+.banner {
+  position: absolute;
+  top: 214px;
+  left: 0;
+  width: 1440px;
+  height: 300px;
+  background: #374140;
+}
+
+.banner-feature {
+  position: absolute;
+  top: 0;
+  left: 165px;
+  width: 1129px;
+  height: 300px;
+  display: flex;
+  gap: 0;
+}
+
+.feature-box {
+  position: relative;
+  width: 370px;
+  height: 300px;
+  overflow: hidden;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+
+.feature-title {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+}
+
+.section-design {
+  position: absolute;
+  top: 564px;
+  left: 165px;
+  width: 1110px;
+  height: 182px;
+}
+
+.section-design-title {
+  color: #ba3632;
+  font-size: 42px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.section-design-desc {
+  color: #777;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 24px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  position: absolute;
+  width: 540px;
+  top: 62px;
+}
+
+.section-design-desc.left {
+  left: 0;
+}
+.section-design-desc.right {
+  left: 570px;
+}
+
+.portfolio {
+  position: absolute;
+  top: 800px;
+  left: 0;
+  width: 1440px;
+  height: 525px;
+  background: #f4f1f1;
+}
+
+.portfolio-title {
+  color: #ba3632;
+  font-size: 42px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+  position: absolute;
+  left: 165px;
+  top: 50px;
+}
+
+.portfolio-cards {
+  position: absolute;
+  left: 165px;
+  top: 131px;
+  display: flex;
+  gap: 32px;
+}
+
+.portfolio-card {
+  width: 254px;
+  height: 254px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.portfolio-card .card-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+  text-transform: capitalize;
+}
+
+.portfolio-nav {
+  position: absolute;
+  top: 60%;
+  left: 99px;
+  width: 36px;
+  height: 36px;
+  opacity: 0.6;
+  background: #555;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-nav.next {
+  left: 1305px;
+}
+
+.portfolio-more {
+  position: absolute;
+  left: 592px;
+  top: 415px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 64px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer {
+  position: absolute;
+  top: 1325px;
+  left: 0;
+  width: 1440px;
+  height: 400px;
+  background: #374140;
+}
+
+.footer-box {
+  position: absolute;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-box.box1 {
+  left: 165px;
+  width: 333px;
+}
+.footer-box.box2 {
+  left: 545px;
+}
+.footer-box.box3 {
+  left: 926px;
+  width: 349px;
+}
+
+.footer-title {
+  color: #e35765;
+  font-size: 24px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.footer-content {
+  color: #9d9d9d;
+  font-size: 14px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+}
+
+.footer-content .date {
+  font-size: 12px;
+  color: #9d9d9d;
+}
+
+.footer-input {
+  width: 350px;
+  height: 40px;
+  background: #4f5554;
+  border: 1px solid #6d6d6d;
+  color: rgba(255,255,255,0.5);
+  font-size: 18px;
+  padding: 0 13px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.footer-input.send {
+  background: #e35765;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.copyright {
+  position: absolute;
+  left: 0;
+  top: 360px;
+  width: 100%;
+  background: #1e2423;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}

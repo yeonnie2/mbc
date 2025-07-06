@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09-하위선택자(selector1)</title>
+    <style>
+        /* 태그선택자, Elements Selector */
+        ul {
+            list-style-type: none;
+        }
+
+        /* 1. 관계선택자
+            1.1. 하위요소 선택자
+        */
+        div p {
+            color: blue;
+        }
+
+        .abox li p {
+            color: red;
+        }
+        body.abox{
+            background:rgb(32, 64, 76);
+        }
+    </style>
+</head>
+
+<body class="abox">
+    <div class="abox">
+        <p>7월여행지</p>
+        <p>8월의 의 여행지</p>
+        <ul>
+            <li>
+                <p>1주차 여행지</p>
+            </li>
+            <li>
+                <p>2주차 여행지</p>
+            </li>
+        </ul>
+    </div>
+    <p>내년의 여행지</p>
+</body>
+
+</html>

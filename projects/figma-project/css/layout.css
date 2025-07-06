@@ -1,0 +1,14 @@
+header {
+  & {
+    width: 100%;
+    height: calc(var(--row) * 23);
+    background-color: red;
+  }
+
+  .inner {
+    background-color: black;
+    height: inherit;
+  }
+}
+
+/* //.header  */

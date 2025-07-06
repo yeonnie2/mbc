@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>text-align</title>
+  <style>
+    p {
+      margin: 10px 110px;
+      padding: 10px;
+      border: 1px solid crimson;
+    }
+
+    .text1 {
+      text-align: left;
+      text-align: center;
+    }
+
+    .text2 {
+      text-align: right;
+    }
+    .text3{
+      text-align: justify;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 태그는 화면에 표시되는 영역에 따라 인라인과 블럭으로 나뉨 -->
+  <!-- text-align
+    블럭태그인 부모요소에 속성을 적용하면 자식 인라인 요소에 반영됨
+  -->
+  <!-- p.text$*3 -->
+  <a class="text2">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nesciunt sapiente excepturi non deserunt, sunt
+    similique obcaecati ullam odio recusandae expedita dolores quasi! Aliquid asperiores debitis laborum voluptates id
+    aspernatur.
+  </a>
+  <p class="text1">
+    <span>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fuga corporis cumque repudiandae sed itaque
+      architecto, quod neque corrupti illo sunt sint dolores ipsam quasi perspiciatis illum provident et beatae?
+    </span>
+  </p>
+  <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fuga corporis cumque repudiandae sed
+    itaque architecto, quod neque corrupti illo sunt sint dolores ipsam quasi perspiciatis illum provident et beatae?
+  </p>
+  <p class="text3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fuga corporis cumque repudiandae sed
+    itaque architecto, quod neque corrupti illo sunt sint dolores ipsam quasi perspiciatis illum provident et beatae?
+  </p>
+</body>
+
+</html>
