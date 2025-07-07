@@ -36,10 +36,12 @@
 | menu2   | [03_gnb/menu2.html](03_gnb/menu2.html)     |
 
 ## 5. figma-project
-| 경로       | 링크                                                                   |
-| ---------- | ---------------------------------------------------------------------- |
-| index      | [projects/figma-project/index.html](projects/figma-project/index.html) |
-| ---------- | ---------------------------------------------------------------------- |
-| common.css | [common.css](projects/figma-project/css/common.css)                    |
+| 경로       | 링크                                                                                                                                                                                                                              |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Figma      | [피그마시안]([projects/figma-project/index.html](https://www.figma.com/design/jxefLoweNEDGO2Z2UIfEJQ/%EB%94%94%EC%9E%90%EC%9D%B8%EB%B6%80%ED%84%B0%EC%BD%94%EB%94%A9%EA%B9%8C%EC%A7%80-NEW?node-id=558-778&t=WcYMfRRJCF6BjnmT-1)) |
+| ---------- | ----------------------------------------------------------------------                                                                                                                                                            |
+| index      | [projects/figma-project/index.html](projects/figma-project/index.html)                                                                                                                                                            |
+| ---------- | ------------------------                                                                                                                                                                                                          |
+| common.css | [common.css](projects/figma-project/css/common.css)                                                                                                                                                                               |
 
 <!-- 새로운 항목은 위 표에 날짜별로 추가하세요. -->
