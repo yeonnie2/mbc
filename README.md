@@ -45,3 +45,4 @@
 | common.css | [common.css](projects/figma-project/css/common.css)                                                                                                                                                                               |
 
 <!-- 새로운 항목은 위 표에 날짜별로 추가하세요. -->
+<!-- 배치파일 -->
