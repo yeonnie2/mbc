@@ -1,0 +1,25 @@
+name: Auto Commit with Date
+
+on:
+  push:
+    branches:
+      - projects
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and Push with Date
+        run: |
+          DATE=$(date +'%m-%d')
+          git add -A
+          git diff --cached --quiet || git commit -m "$DATE 자동 커밋"
+          git push origin projects
