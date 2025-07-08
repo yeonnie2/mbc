@@ -3,7 +3,7 @@
 - [2. 01_doit](#2-01_doit)
 - [3. 02_mcp](#3-02_mcp)
 - [4. 03_gnb](#4-03_gnb)
-- [5. figma-project](https://github.com/qwerewqwerew/mbc/tree/projects/projects/)
+- [5. figma-project](https://github.com/qwerewqwerew/figmaTohtml.git)
 
 
 
