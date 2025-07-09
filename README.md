@@ -20,6 +20,10 @@
 | ---------- | ------ | ---------------------------------------------------------------- |
 | 2025-07-09 | md     | [html/01_doit/16/0709.md](html/01_doit/16/0709.md)               |
 | 2025-07-09 | 커밋   | [2025-07-09 커밋 파일](https://github.com/qwerewqwerew/mbc/commit/959a736e69cdcbf1b59489203dbcb33afe9c86b9) |
+| 2025-07-09 | md     | [html/01_doit/16/0709.md](html/01_doit/16/0709.md)               |
+| 2025-07-09 | js     | [html/01_doit/16/primitive.js](html/01_doit/16/primitive.js)      |
+| 2025-07-09 | js     | [html/01_doit/16/reference.js](html/01_doit/16/reference.js)      |
+| 2025-07-09 | 커밋   | [2025-07-09 커밋 파일](https://github.com/yeonnie2/mbc/commit/5f13db3e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2) |
 |            | 02     | [html/01_doit/02/index.html](html/01_doit/02/index.html)         |
 |            | 03     | [html/01_doit/03/index.html](html/01_doit/03/index.html)         |
 |            | 11     | [html/01_doit/11/index.html](html/01_doit/11/index.html)         |
