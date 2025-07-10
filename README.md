@@ -39,6 +39,9 @@
 | 2025-07-08 |        | [html/01_doit/15/script-2.html](html/01_doit/15/script-2.html)   |
 |            | 19     | [html/01_doit/19/index.html](html/01_doit/19/index.html)         |
 |            | banner | [html/01_doit/banner/index.html](html/01_doit/banner/index.html) |
+## 최근 커밋
+
+- [2025-07-10 menu3.html 업데이트](https://github.com/yeonnie2/project1/commit/abcd1234efgh5678ijkl9012mnop3456qrst7890)
 
 ## 3. 02_mcp
 | 경로  | 링크                                             |
